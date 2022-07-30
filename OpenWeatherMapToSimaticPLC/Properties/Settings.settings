@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RefreshWeatherData.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OpenWeatherMapApiKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1ccdcf4ab69dcf58ceb56740c8c00e75</Value>
+    </Setting>
+    <Setting Name="OpenWeatherMapLocationName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Fussen</Value>
+    </Setting>
+    <Setting Name="PlcIpAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.99.14</Value>
+    </Setting>
+    <Setting Name="PlcRack" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="PlcSlot" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="TemperaturaAddress" Description="The S7 Address of the value. Can be any valid S7 identifier, such as DB123.DBD0. Must be an value of type &quot;Real&quot;." Type="System.String" Scope="User">
+      <Value Profile="(Default)">MD1000</Value>
+    </Setting>
+    <Setting Name="PressureAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MD1004</Value>
+    </Setting>
+    <Setting Name="HumidityAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MD1008</Value>
+    </Setting>
+    <Setting Name="WindSpeedAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MD1012</Value>
+    </Setting>
+    <Setting Name="WindDirectionAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MD1016</Value>
+    </Setting>
+    <Setting Name="CloudPercentAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MD1020</Value>
+    </Setting>
+    <Setting Name="LocationNameAddress" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MD1024</Value>
+    </Setting>
+    <Setting Name="LocationNameStringLength" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
