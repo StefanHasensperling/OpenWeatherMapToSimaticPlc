@@ -25,7 +25,7 @@ namespace RefreshWeatherData.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1ccdcf4ab69dcf58ceb56740c8c00e75")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string OpenWeatherMapApiKey {
             get {
                 return ((string)(this["OpenWeatherMapApiKey"]));
