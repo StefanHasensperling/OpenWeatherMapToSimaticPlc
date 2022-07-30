@@ -1,13 +1,13 @@
 # What is it
 This small tool allows you to query current Weather data from OpenWeatherMap.org and send the data to any Siemens Simatic PLC
-This is helpfull if you need this current Weather data, such as Sea-Level-Air Pressure and such in an Automation System, for example to calculate Evaporations and such. 
+This is helpfull if you need this current Weather data, such as Sea-Level-Air Pressure, in an Automation System plc. For example to calculate Evaporations and such. 
 
-Currently all configurations are done via the OpenWeatherMapToSimaticPLC.xml file. Thre are no command line parameters.
+Currently all configurations are done via the OpenWeatherMapToSimaticPLC.xml file. There are no command line parameters.
 
-All values are sent as "Real" datatypes to the PLC, so you have to reserve 4 bytes for each value
+All values are sent as "Real" datatypes to the PLC, occupying 4 bytes for each value
 
 # What Requirements does it have
-It requres an valid OpenWeatherMap API-Key. You have to get your own key by registering to one of the subscriptions on [OpenWeatherMap](https://OpenWeatherMap.org).
+It requires an valid OpenWeatherMap API-Key. You have to get your own key by registering to one of the subscriptions on [OpenWeatherMap](https://OpenWeatherMap.org).
 And it needs an Internet connection of course, since it has to query whe OpenWeatherMap API. This should not be a problem, but in Industrial Automation systems this may be more difficult. 
 
 # How does it Work
